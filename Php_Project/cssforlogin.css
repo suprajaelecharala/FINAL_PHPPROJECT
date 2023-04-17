@@ -1,0 +1,60 @@
+/* Styles for the body of the page */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styles for the login form */
+  #login-form {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 50px auto;
+    width: 400px;
+  }
+  
+  #login-form label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  #login-form input[type="text"],
+  #login-form input[type="password"] {
+    border-radius: 3px;
+    border: none;
+    font-size: 16px;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  #login-form input[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  #login-form input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  #login-form a {
+    color: #4CAF50;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  #login-form a:hover {
+    text-decoration: underline;
+  }
+  
